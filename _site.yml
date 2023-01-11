@@ -1,0 +1,26 @@
+name: "Dan Armstrong"
+navbar:
+  title: "Dan Armstrong"
+  left:
+    - text: "Home"
+      href: index.html
+      icon: fa-home
+    - text: "Data Stories"
+      icon: fa-book
+      menu:
+      - text: "Page 1"
+        href: DS1.html
+      - text: "Page 2"
+        href: DS2.html
+    - text: "Bio"
+      href: bio.html
+      icon: fa-user
+  right:
+   - href: https://github.com/DDArmstrong
+     icon: fa-github
+   - href: https://www.linkedin.com/in/ddarmstrong/
+     icon: fa-linkedin
+   - href: https://twitter.com/allthedistricts
+     icon: fa-twitter     
+output_dir: "docs"
+ 
